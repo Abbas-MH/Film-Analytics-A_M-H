@@ -89,8 +89,12 @@ Cette phase démontre ma capacité à :
 - Mobiliser des outils de **visualisation moderne** pour raconter une histoire métier à partir de données structurées.
 
 ---
+## 🔄 Lancer l’application Streamlit
 
-👉 Pour tester l’application, consulter le dossier `streamlit_app` ou lancer :
+*👉 Avant de démarrer l’application, **assurez-vous que l’API est en fonctionnement**.*  
+L’URL de l’API ainsi que les instructions de lancement se trouvent dans le fichier `README.md` du dossier `api`, situé dans `backend-movie-A_m-h`.
+
+Une fois l’API lancée, vous pouvez exécuter l’application Streamlit à l’aide de la commande suivante :
 
 ```bash
 streamlit run dataanalysis/streamlit_app/movielens_app.py
