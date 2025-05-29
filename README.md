@@ -18,12 +18,12 @@ Elle s’appuie sur l’API développée en phase 1 pour proposer une **explorat
 
 ## 📊 Analyse exploratoire des données (EDA)
 
-- Requête dynamique des données via le **SDK `moviesdk`** (connecté à l’API REST FastAPI).
+- Requête dynamique des données via le **SDK `moviesdex`** (connecté à l’API REST FastAPI).
 - Étude des **tendances de notation**, genres les plus populaires, préférences utilisateurs.
 - Construction de **notebooks Jupyter professionnels**, intégrant des graphiques (`seaborn`, `matplotlib`, `plotly`) et des explications lisibles.
 
 > 📁 Livrable :  
-> `dataanalysis/movie_data_analysis.ipynb`
+> `movie_data_analysis.ipynb`
 
 ---
 
@@ -45,7 +45,7 @@ L’analyse est ensuite valorisée via une **application web interactive** const
 - **Connexion directe à l’API** pour affichage en temps réel des données.
 
 > 📁 Livrable :  
-> `dataanalysis/streamlit_app/`  
+> `streamlit_app/`  
 > Fichier principal : `movielens_app.py`
 
 ---
@@ -94,7 +94,7 @@ Cette phase démontre ma capacité à :
 *👉 Avant de démarrer l’application, **assurez-vous que l’API est en fonctionnement**.*  
 L’URL de l’API ainsi que les instructions de lancement se trouvent dans le fichier `README.md` du dossier `api`, situé dans `backend-movie-A_m-h`.
 
-Une fois l’API lancée, vous pouvez exécuter l’application Streamlit à l’aide de la commande suivante :
+Une fois l’API lancée, assurez-vous d’être dans le dossier streamlit avec le terminal. Vous pouvez ensuite exécuter l’application Streamlit à l’aide de la commande suivante :
 
 ```bash
-streamlit run dataanalysis/streamlit_app/movielens_app.py
+streamlit run movielens_app.py
